@@ -48,7 +48,7 @@ namespace Graphene.Viz
         public Task<JsonRpcResponse<ulong>> GetAccountCountAsync(CancellationToken token)
         {
             return CustomGetRequestAsync<ulong>(KnownApiNames.DatabaseApi, "get_account_count", token);
-        }
+        }*/
 
         /// <summary>
         /// API name: get_accounts
@@ -64,7 +64,7 @@ namespace Graphene.Viz
             return CustomGetRequestAsync<AccountApiObject[]>(KnownApiNames.DatabaseApi, "get_accounts", new object[] { arg0 }, token);
         }
 
-        /// <summary>
+/*        /// <summary>
         /// API name: get_block
         /// Retrieve a full, signed block
         ///

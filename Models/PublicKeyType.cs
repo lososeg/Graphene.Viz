@@ -8,7 +8,7 @@ namespace Graphene.Viz.Models
     [JsonConverter(typeof(CustomJsonConverter))]
     public class PublicKeyType : ICustomJson
     {
-        public const string Prefix = "VIZ";
+        public string Prefix { get; set; } = Config.KeyPrefix;
 
         [MessageOrder(1)]
         public byte[] Data { get; set; }
