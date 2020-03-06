@@ -148,7 +148,7 @@ namespace Graphene.Viz
         public Task<JsonRpcResponse<DatabaseInfo>> GetDatabaseInfoAsync(CancellationToken token)
         {
             return CustomGetRequestAsync<DatabaseInfo>(KnownApiNames.DatabaseApi, "get_database_info", new object[] { }, token);
-        }
+        }*/
 
         /// <summary>
         /// API name: get_dynamic_global_properties
@@ -165,7 +165,7 @@ namespace Graphene.Viz
             return CustomGetRequestAsync<DynamicGlobalPropertyApiObject>(KnownApiNames.DatabaseApi, "get_dynamic_global_properties", token);
         }
 
-        /// <summary>
+/*        /// <summary>
         /// API name: get_escrow
         /// *Возвращает операции реализованные с помощью посредничества.
         /// 

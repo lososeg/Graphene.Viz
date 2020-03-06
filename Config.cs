@@ -4,8 +4,8 @@ namespace Graphene.Viz
 {
     public class Config
     {
-        public static byte[] ChainId { get; set; } = new byte[0];// Hex.HexToBytes("782a3039b478c839e4cb0c941ff4eaeb7df40bdd68bd441afd444b9da763de12");
-/*        public static string KeyPrefix { get; set; } = "GLS";
-        public string[] ChainFieldName { get; set; } = { "STEEM_CHAIN_ID", "STEEMIT_CHAIN_ID" };*/
+        public static byte[] ChainId { get; set; } = Hex.HexToBytes("2040effda178d4fffff5eab7a915d4019879f5205cc5392e4bcced2b6edda0cd");
+        public static string KeyPrefix { get; set; } = "VIZ";
+        public string[] ChainFieldName { get; set; } = { "VIZ_CHAIN_ID", "VIZ_CHAIN_ID" };
     }
 }

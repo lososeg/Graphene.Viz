@@ -8,8 +8,4 @@
     <PackageReference Include="Ditch.Core" Version="4.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Operations\" />
-  </ItemGroup>
-
 </Project>

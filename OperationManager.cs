@@ -9,8 +9,8 @@ using Ditch.Core;
 using Ditch.Core.Interfaces;
 using Ditch.Core.JsonRpc;
 using Graphene.Viz.JsonRpc;
-/*using Ditch.Golos.Models;
-using Ditch.Golos.Operations;*/
+using Graphene.Viz.Models;
+using Graphene.Viz.Operations;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -47,7 +47,7 @@ namespace Graphene.Viz
             return await ConnectionManager.ConnectToAsync(endpoin, token).ConfigureAwait(false);
         }
 
-/*        /// <summary>
+        /// <summary>
         /// Create and Broadcast a transaction to the network
         /// 
         /// The transaction will be checked for validity in the local database prior to broadcasting. If it fails to apply locally, an error will be thrown and the transaction will not be broadcast.
@@ -87,7 +87,7 @@ namespace Graphene.Viz
             return await BroadcastTransactionSynchronousAsync(transaction, token).ConfigureAwait(false);
         }
 
-        /// <summary>
+/*        /// <summary>
         /// Execute custom user method
         /// Возвращает TRUE если транзакция подписана правильно
         /// </summary>
@@ -118,7 +118,7 @@ namespace Graphene.Viz
             return ConnectionManager.RepeatExecuteAsync<T>(jsonRpc, JsonSerializerSettings, token);
         }
 
-/*        /// <summary>
+        /// <summary>
         /// Create and execute custom json-rpc method
         /// </summary>
         /// <typeparam name="T">Custom type. JsonConvert will try to convert json-response to you custom object</typeparam>
@@ -134,7 +134,7 @@ namespace Graphene.Viz
             return ConnectionManager.ExecuteAsync<T>(jsonRpc, JsonSerializerSettings, token);
         }
 
-        /// <summary>
+/*        /// <summary>
         /// Create and execute custom json-rpc method
         /// </summary>
         /// <typeparam name="T">Custom type. JsonConvert will try to convert json-response to you custom object</typeparam>
@@ -148,7 +148,7 @@ namespace Graphene.Viz
         {
             var jsonRpc = new JsonRpcRequest(JsonSerializerSettings, api, method, data);
             return ConnectionManager.RepeatExecuteAsync<T>(jsonRpc, JsonSerializerSettings, token);
-        }
+        }*/
 
         /// <summary>
         /// 
@@ -191,6 +191,6 @@ namespace Graphene.Viz
         public Task<SignedTransaction> CreateTransactionAsync(DynamicGlobalPropertyObject propertyApiObj, IList<byte[]> userPrivateKeys, BaseOperation operation, CancellationToken token)
         {
             return CreateTransactionAsync(propertyApiObj, userPrivateKeys, new[] { operation }, token);
-        }*/
+        }
     }
 }

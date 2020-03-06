@@ -22,7 +22,7 @@ namespace Graphene.Viz.JsonRpc
             Message = $"{{\"method\":\"call\",\"params\":[\"{api}\",\"{method}\",[]],\"jsonrpc\":\"2.0\",\"id\":{Id}}}";
         }
 
-/*        public JsonRpcRequest(string api, string method, string paramData)
+        public JsonRpcRequest(string api, string method, string paramData)
         {
             Id = Interlocked.Increment(ref _id);
             if (Id == int.MaxValue)
@@ -34,6 +34,6 @@ namespace Graphene.Viz.JsonRpc
         }
 
         public JsonRpcRequest(JsonSerializerSettings jsonSerializerSettings, string api, string method, object[] data)
-            : this(api, method, data == null ? "[]" : JsonConvert.SerializeObject(data, jsonSerializerSettings)) { }*/
+            : this(api, method, data == null ? "[]" : JsonConvert.SerializeObject(data, jsonSerializerSettings)) { }
     }
 }
