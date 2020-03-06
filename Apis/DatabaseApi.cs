@@ -417,7 +417,7 @@ namespace Graphene.Viz
         public Task<JsonRpcResponse<VoidResponse>> SetBlockAppliedCallbackAsync(object args, CancellationToken token)
         {
             return CustomGetRequestAsync<VoidResponse>(KnownApiNames.DatabaseApi, "set_block_applied_callback", new[] { args }, token);
-        }
+        }*/
 
         /// <summary>
         /// API name: verify_account_authority
@@ -434,7 +434,7 @@ namespace Graphene.Viz
             return CustomGetRequestAsync<bool>(KnownApiNames.DatabaseApi, "verify_account_authority", new object[] { name, signers }, token);
         }
 
-        /// <summary>
+/*        /// <summary>
         /// API name: verify_authority
         /// *Возвращает TRUE если транзакция подписана правильно
         /// 

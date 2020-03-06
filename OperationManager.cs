@@ -134,7 +134,7 @@ namespace Graphene.Viz
             return ConnectionManager.ExecuteAsync<T>(jsonRpc, JsonSerializerSettings, token);
         }
 
-/*        /// <summary>
+        /// <summary>
         /// Create and execute custom json-rpc method
         /// </summary>
         /// <typeparam name="T">Custom type. JsonConvert will try to convert json-response to you custom object</typeparam>
@@ -148,7 +148,7 @@ namespace Graphene.Viz
         {
             var jsonRpc = new JsonRpcRequest(JsonSerializerSettings, api, method, data);
             return ConnectionManager.RepeatExecuteAsync<T>(jsonRpc, JsonSerializerSettings, token);
-        }*/
+        }
 
         /// <summary>
         /// 
