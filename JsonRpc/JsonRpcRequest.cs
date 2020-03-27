@@ -1,5 +1,5 @@
 ﻿using System.Threading;
-using Ditch.Core.Interfaces;
+using Graphene.Core.Interfaces;
 using Newtonsoft.Json;
 
 namespace Graphene.Viz.JsonRpc

@@ -1,6 +1,6 @@
-﻿using Ditch.Core;
-using Ditch.Core.Attributes;
-using Ditch.Core.Converters;
+﻿using Graphene.Core;
+using Graphene.Core.Attributes;
+using Graphene.Core.Converters;
 using Newtonsoft.Json;
 
 namespace Graphene.Viz.Models

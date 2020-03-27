@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Ditch.Core.JsonRpc;
-using Ditch.Core.Models;
+using Graphene.Core.JsonRpc;
+using Graphene.Core.Models;
 using Graphene.Viz.Models;
 
 namespace Graphene.Viz

@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ditch.Core" Version="4.1.0" />
+    <PackageReference Include="Cryptography.ECDSA.Secp256k1" Version="1.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Graphene.Core">
+      <HintPath>..\Graphene.Core\bin\Release\netstandard2.0\Graphene.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

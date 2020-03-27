@@ -1,5 +1,5 @@
-﻿using Ditch.Core.Attributes;
-using Ditch.Core.Models;
+﻿using Graphene.Core.Attributes;
+using Graphene.Core.Models;
 using Newtonsoft.Json;
 
 namespace Graphene.Viz.Models

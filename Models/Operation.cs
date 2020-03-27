@@ -1,6 +1,6 @@
 ﻿using System.IO;
-using Ditch.Core.Converters;
-using Ditch.Core.Interfaces;
+using Graphene.Core.Converters;
+using Graphene.Core.Interfaces;
 using Graphene.Viz.Operations;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;

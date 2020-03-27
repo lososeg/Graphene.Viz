@@ -1,4 +1,4 @@
-﻿using Ditch.Core.Attributes;
+﻿using Graphene.Core.Attributes;
 using Newtonsoft.Json;
 
 namespace Graphene.Viz.Operations

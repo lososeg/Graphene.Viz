@@ -3,8 +3,8 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using Ditch.Core.Converters;
-using Ditch.Core.Interfaces;
+using Graphene.Core.Converters;
+using Graphene.Core.Interfaces;
 using Newtonsoft.Json;
 
 namespace Graphene.Viz.Models
