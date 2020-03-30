@@ -1,5 +1,7 @@
-# Usage
+# Dependencies
 [Graphene.Core](https://github.com/lososeg/Graphene.Core)
+
+# Usage
 ```
 using Graphene.Viz;
 
