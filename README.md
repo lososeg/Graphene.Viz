@@ -1,7 +1,7 @@
 # Usage
 [Graphene.Core](https://github.com/lososeg/Graphene.Core)
 ```
-using Graphene.Core;
+using Graphene.Viz;
 
 wssNode = "wss://.....";
 privateKeys = new List<byte[]>
