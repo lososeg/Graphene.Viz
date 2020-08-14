@@ -64,7 +64,7 @@ namespace Graphene.Viz
             return CustomGetRequestAsync<AccountApiObject[]>(KnownApiNames.DatabaseApi, "get_accounts", new object[] { arg0 }, token);
         }
 
-/*        /// <summary>
+        /// <summary>
         /// API name: get_block
         /// Retrieve a full, signed block
         ///
@@ -80,7 +80,7 @@ namespace Graphene.Viz
             return CustomGetRequestAsync<SignedBlock>(KnownApiNames.DatabaseApi, "get_block", new object[] { blockNum }, token);
         }
 
-        /// <summary>
+/*        /// <summary>
         /// API name: get_block_header
         /// Retrieve a block header
         /// 
